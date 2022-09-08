@@ -4,42 +4,6 @@ using System.Text.RegularExpressions;
 // Задача 15: Напишите программу, которая принимает на вход цифру,
 // обозначающую день недели, и проверяет, является ли этот день выходным.
 
-// void is_this_day_off(bool dayOff)
-// {
-//     if (dayOff)
-//     {
-//         return "Да";
-//     }
-//     else
-//     {
-//         return "Нет";
-//     };
-// };
-
-// void Checking_for_days_of_the_week(int num)
-// {
-//     if(num == 6 || num == 7)
-//     {
-//         return true;
-//     }
-//     else
-//     {
-//         return false;
-//     };
-// };
-
-// void Checking_for_days_of_the_week(int num)
-// {
-//     if(num == 6 || num == 7)
-//     {
-//         return "Да";
-//     }
-//     else
-//     {
-//         return "Нет";
-//     }
-// }
-
 string writeOut = "Введите целое число день недели: ";
 string helpQEnd = "Чтобы выйти из программы, введите символ \"q\" в терминале.";
 
